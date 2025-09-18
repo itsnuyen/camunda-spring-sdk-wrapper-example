@@ -1,0 +1,20 @@
+server:
+  address:
+    port: 8097
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+camunda:
+  client:
+    mode: self-managed
+    grpc-address: http://localhost:26500
+    rest-address: http://localhost:8081
+    worker:
+      defaults:
+        auto-complete: false
+    prefer-rest-over-grpc: false
+#    auth: # this is not used because we used our interceptor
+#      method: basic
+#      username: demo
+#      password: demo

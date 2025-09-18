@@ -1,0 +1,10 @@
+.idea
+/zeebe-client/target/
+/zeebe-client/.flattened-pom.xml
+/zeebe-client/zeebe-samples.iml
+target
+**/.classpath
+**/.project
+**/.settings
+**/.factorypath
+.DS_Store
